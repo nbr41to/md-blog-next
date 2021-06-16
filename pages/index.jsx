@@ -10,7 +10,6 @@ export const getStaticProps = async () => {
 };
 
 export default function Home({ posts }) {
-  console.log(posts);
   return (
     <div>
       <h1>Let&lsquo;s Blog</h1>
